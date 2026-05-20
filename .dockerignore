@@ -1,0 +1,38 @@
+# Git files
+.git
+.gitignore
+.github
+
+# Python environment and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit config and secrets
+.streamlit/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Docker files (no need to copy inside container itself)
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Temporary/scratch files
+scratch/
+temp/
+tmp/
+*.log
